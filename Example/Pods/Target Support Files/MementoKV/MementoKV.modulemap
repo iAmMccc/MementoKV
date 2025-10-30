@@ -1,0 +1,6 @@
+framework module MementoKV {
+  umbrella header "MementoKV-umbrella.h"
+
+  export *
+  module * { export * }
+}

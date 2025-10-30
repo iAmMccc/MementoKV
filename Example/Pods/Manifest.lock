@@ -1,0 +1,25 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MementoKV (0.1.0):
+    - FMDB
+
+DEPENDENCIES:
+  - MementoKV (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+
+EXTERNAL SOURCES:
+  MementoKV:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MementoKV: 43cfd0220693de95ceecd5f966d0ca04d0188180
+
+PODFILE CHECKSUM: 4066f09025af6e412131d5fa0d69490f79052632
+
+COCOAPODS: 1.16.2
