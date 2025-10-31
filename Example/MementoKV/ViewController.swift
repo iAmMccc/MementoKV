@@ -60,7 +60,12 @@ class ViewController: UIViewController {
         // 5. 获取表中数量
         let count = kvStore.getCount(from: tableName)
         print("Total items in table:", count)
-//        
+//
+        
+        
+        let dbPath = kvStore.dbPath
+        print("dbPath = \(dbPath ?? "")")
+        
 //        // 6. 删除单个 item
 //        kvStore.deleteObject(byId: "greeting", from: tableName)
 //        

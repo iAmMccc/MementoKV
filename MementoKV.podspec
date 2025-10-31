@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MementoKV'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = '一个轻量级的 iOS 本地键值存储库，基于 FMDB 封装。'
 
   s.homepage         = 'https://github.com/iAmMccc'

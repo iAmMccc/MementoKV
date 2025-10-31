@@ -71,6 +71,9 @@ public extension MementoKV {
     /// 创建表
     func createTable(named tableName: String) { _createTable(named: tableName) }
     
+    /// 获取数据库路径
+    var dbPath: String? { dbQueue?.path }
+    
     /// 判断表是否存在
     func isTableExists(_ tableName: String) -> Bool { _isTableExists(tableName) }
     

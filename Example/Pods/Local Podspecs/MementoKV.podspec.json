@@ -1,6 +1,6 @@
 {
   "name": "MementoKV",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "一个轻量级的 iOS 本地键值存储库，基于 FMDB 封装。",
   "homepage": "https://github.com/iAmMccc",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/iAmMccc/MementoKV.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "13.0"
